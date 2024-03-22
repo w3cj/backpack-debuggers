@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Codagon",
+    "dex_number": 1,
+    "size": 10,
+    "description": "A dragon-like creature with scales resembling various coding symbols. It breathes fire that looks like binary code.",
+    "hp": 150,
+    "attacks": ["Binary Blaze", "Syntax Swirl"]
+  },
+  {
+    "name": "Bugabyte",
+    "dex_number": 2,
+    "size": 4,
+    "description": "A small, bug-shaped monster known for causing chaos in the digital realm. It can duplicate itself rapidly.",
+    "hp": 90,
+    "attacks": ["Glitch Grenade", "Duplicate Dilemma"]
+  },
+  {
+    "name": "Pixelfin",
+    "dex_number": 3,
+    "size": 7,
+    "description": "An aquatic monster that can manipulate digital displays and create illusions with pixels.",
+    "hp": 120,
+    "attacks": ["Resolution Ripple", "Pixel Prism"]
+  },
+  {
+    "name": "Scriptail",
+    "dex_number": 4,
+    "size": 9,
+    "description": "A fast and agile monster with a tail that can morph into different coding languages to attack or defend.",
+    "hp": 110,
+    "attacks": ["Code Whip", "Syntax Shield"]
+  },
+  {
+    "name": "Hackshock",
+    "dex_number": 5,
+    "size": 8,
+    "description": "A monster with electrical powers that can hack into devices and control them temporarily.",
+    "hp": 100,
+    "attacks": ["Circuit Surge", "Data Drain"]
+  },
+  {
+    "name": "Bytebeast",
+    "dex_number": 6,
+    "size": 10,
+    "description": "A large, powerful monster made of corrupted data and broken code, it grows stronger from digital disorder.",
+    "hp": 200,
+    "attacks": ["Corrupt Claws", "Error Eruption"]
+  },
+  {
+    "name": "Quickfix",
+    "dex_number": 7,
+    "size": 4,
+    "description": "A mischievous monster that excels in quick fixes and temporary patches, often leaving behind a trail of bugs.",
+    "hp": 80,
+    "attacks": ["Patch Pummel", "Debug Dart"]
+  },
+  {
+    "name": "Queryquin",
+    "dex_number": 8,
+    "size": 6,
+    "description": "A creature that can summon data with ease, it attacks using complex queries that baffle its opponents.",
+    "hp": 130,
+    "attacks": ["Data Deluge", "Query Quake"]
+  },
+  {
+    "name": "Logiclops",
+    "dex_number": 9,
+    "size": 5,
+    "description": "A cyclops monster with a keen sense of logic and reasoning, able to solve complex problems to defeat opponents.",
+    "hp": 140,
+    "attacks": ["Algorithm Assault", "Logic Lash"]
+  },
+  {
+    "name": "ProtoPhantom",
+    "dex_number": 10,
+    "size": 4,
+    "description": "A ghostly figure that can phase through digital defenses, specializing in stealth and infiltration.",
+    "hp": 115,
+    "attacks": ["Stealth Sync", "Invisible Intrusion"]
+  }
+]
