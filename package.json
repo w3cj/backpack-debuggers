@@ -7,7 +7,7 @@
   "scripts": {
     "start": "tsx src/index.ts",
     "dev": "nodemon -e cjs,mjs,js,ts,json --exec npm start",
-    "build": "tsc",
+    "build": "tsc && tsc-alias",
     "lint": "eslint --fix src test",
     "typecheck": "tsc --noEmit",
     "db:migrate": "tsx src/db/migrate.ts",
@@ -43,6 +43,7 @@
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
     "nodemon": "^3.1.0",
+    "tsc-alias": "^1.8.8",
     "tsx": "^4.7.1",
     "typescript": "^5.4.2"
   }
