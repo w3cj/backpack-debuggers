@@ -75,3 +75,5 @@ typings/
 dist
 
 resize-image-cache/*.png
+
+db-data

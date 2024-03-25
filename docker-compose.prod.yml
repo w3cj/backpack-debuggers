@@ -1,0 +1,22 @@
+services:
+  app:
+    build:
+      context: .
+      target: prod
+    ports:
+      - 5000:5000
+    command: node src/index.js
+    depends_on:
+      - db
+    environment:
+      - NODE_ENV=production
+      - DB_HOST=${DB_HOST}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_NAME=${DB_NAME}
+      - DB_PORT=${DB_PORT}
+      - DATABASE_URL=${DATABASE_URL}
+  db:
+    extends:
+      file: docker-compose.base.yml
+      service: db

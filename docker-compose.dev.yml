@@ -1,0 +1,17 @@
+services:
+  app:
+    build:
+      context: .
+      target: dev
+    ports:
+      - 5000:5000
+    command: npm run dev
+    volumes:
+      - .:/app
+      - /app/node_modules
+    depends_on:
+      - db
+  db:
+    extends:
+      file: docker-compose.base.yml
+      service: db
