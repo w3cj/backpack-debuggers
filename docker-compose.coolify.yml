@@ -1,0 +1,24 @@
+services:
+  app:
+    build:
+      context: .
+      target: prod
+    command: node src/index.js
+    depends_on:
+      - db
+    environment:
+      - NODE_ENV=production
+      - DB_HOST=${DB_HOST}
+      - DB_USER=$SERVICE_USER_DB_USER
+      - DB_PASSWORD=$SERVICE_PASSWORD_DB_PASSWORD
+      - DB_NAME=${DB_NAME}
+      - DB_PORT=${DB_PORT}
+      - DATABASE_URL=${DATABASE_URL}
+  db:
+    image: postgres:16.2
+    environment:
+      - POSTGRES_PASSWORD=$SERVICE_PASSWORD_DB_PASSWORD
+      - POSTGRES_USER=$SERVICE_USER_DB_USER
+      - POSTGRES_DB=${DB_NAME}      
+    volumes:
+      - ./db-data:/var/lib/postgresql/data
